@@ -1,0 +1,60 @@
+# ============================================
+# TAJNI PODACI - NIKAD NE COMMITOVATI
+# ============================================
+dbconfig.properties
+**/dbconfig.properties
+
+# ============================================
+# NetBeans
+# ============================================
+nbproject/private/
+nbproject/build-impl.xml
+nbproject/genfiles.properties
+build/
+dist/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ============================================
+# Kompajlirani Java fajlovi
+# ============================================
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+bin/
+
+# ============================================
+# Ostali IDE-ovi
+# ============================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+# ============================================
+# Bekapi i sistemski fajlovi
+# ============================================
+*.zip
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Logovi
+# ============================================
+*.log
+hs_err_pid*
+**/nbproject/private/
+**/nbproject/build-impl.xml
+**/nbproject/genfiles.properties
